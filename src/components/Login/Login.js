@@ -1,8 +1,9 @@
 import React from "react";
-import useFirebase from "../Hooks/useFirebase";
+import useFirebase from "../../hooks/Hooks";
+
 
 const Login = () => {
-    const {signInWithGoogle} = useFirebase();
+    const {signInWithGoogle} = useFirebase()
   return (
     <div>
       <h2>Please Login</h2>
